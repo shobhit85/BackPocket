@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'gemfire' target in the 'gemfire' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif

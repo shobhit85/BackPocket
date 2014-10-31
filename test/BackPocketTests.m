@@ -1,14 +1,13 @@
 //
-//  gemfireTests.m
-//  gemfireTests
+//  BackPocketTests.m
 //
 //  Created by Shobhit Agarwal on 1/3/13.
 //  Copyright (c) 2013 VMware. All rights reserved.
 //
 
-#import "gemfireTests.h"
+#import "BackPocketTests.h"
 
-@implementation gemfireTests
+@implementation BackPocketTests
 
 - (void)setUp
 {
@@ -26,7 +25,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in gemfireTests");
+    STFail(@"Unit tests are not implemented yet");
 }
 
 @end
