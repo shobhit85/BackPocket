@@ -1,4 +1,4 @@
-backpocket
+Backpocket
 ==========
 
 A new native cache for your iOS apps.
