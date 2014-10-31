@@ -38,7 +38,7 @@
 			remoteGlobalIDString = 5D3F23EE1696481D003736FE;
 			remoteInfo = backpocket;
 		};
-		5D4D6F39180C6F7A004A5243 /* PBXContainerItemProxy */ = {
+		EEB8EA511A03801B000A4A98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D7F5F2C16FEED8000428EC7 /* SampleObjectCache.xcodeproj */;
 			proxyType = 2;
@@ -88,7 +88,7 @@
 		5D47598616996F53005B9ABF /* Pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pool.m; sourceTree = "<group>"; };
 		5D47598B1699711C005B9ABF /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
 		5D47598C1699711C005B9ABF /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
-		5D7F5F2C16FEED8000428EC7 /* SampleObjectCache.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleObjectCache.xcodeproj; path = src/SampleObjectCache/SampleObjectCache.xcodeproj; sourceTree = "<group>"; };
+		5D7F5F2C16FEED8000428EC7 /* SampleObjectCache.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleObjectCache.xcodeproj; path = SampleObjectCache/SampleObjectCache.xcodeproj; sourceTree = "<group>"; };
 		5DDD82F516AF42FA0068B823 /* AbstractDataStoreMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDataStoreMap.h; sourceTree = "<group>"; };
 		5DDD82F616AF42FA0068B823 /* AbstractDataStoreMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractDataStoreMap.m; sourceTree = "<group>"; };
 		EE80EA7719E1EE5E00C92492 /* DefaultPListObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultPListObjectSerializer.h; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		5D3F23E41696481D003736FE = {
 			isa = PBXGroup;
 			children = (
-				5D5B782F16D18634007C01A0 /* Examples */,
+				5D5B782F16D18634007C01A0 /* examples */,
 				5D3F23F41696481E003736FE /* src */,
 				5D3F24091696481E003736FE /* tests */,
 				5D3F23F11696481E003736FE /* Frameworks */,
@@ -214,20 +214,12 @@
 			path = pool;
 			sourceTree = "<group>";
 		};
-		5D4D6F36180C6F7A004A5243 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D4D6F3A180C6F7A004A5243 /* SampleObjectCache.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D5B782F16D18634007C01A0 /* Examples */ = {
+		5D5B782F16D18634007C01A0 /* examples */ = {
 			isa = PBXGroup;
 			children = (
 				5D7F5F2C16FEED8000428EC7 /* SampleObjectCache.xcodeproj */,
 			);
-			name = Examples;
+			path = examples;
 			sourceTree = "<group>";
 		};
 		EE80EA7619E1EE3B00C92492 /* message */ = {
@@ -240,6 +232,14 @@
 				EE80EA7A19E1EE7C00C92492 /* DefaultPListObjectSerializer.m */,
 			);
 			path = message;
+			sourceTree = "<group>";
+		};
+		EEB8EA4E1A03801B000A4A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8EA521A03801B000A4A98 /* SampleObjectCache.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +303,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 5D4D6F36180C6F7A004A5243 /* Products */;
+					ProductGroup = EEB8EA4E1A03801B000A4A98 /* Products */;
 					ProjectRef = 5D7F5F2C16FEED8000428EC7 /* SampleObjectCache.xcodeproj */;
 				},
 			);
@@ -316,11 +316,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		5D4D6F3A180C6F7A004A5243 /* SampleObjectCache.app */ = {
+		EEB8EA521A03801B000A4A98 /* SampleObjectCache.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = SampleObjectCache.app;
-			remoteRef = 5D4D6F39180C6F7A004A5243 /* PBXContainerItemProxy */;
+			remoteRef = EEB8EA511A03801B000A4A98 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
