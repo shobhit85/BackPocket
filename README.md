@@ -8,3 +8,8 @@ Backpocket is a framework and library for easily creating cache for your apps wi
 Look at the SampleOjectCache example code to know how you can use the library for populating a table view in your app using a cache which communicates natively to your TCP server.
 
 More is coming...
+
+License
+=======
+
+BackPocket is available under MIT license. See the LICENSE.md file for more info.
