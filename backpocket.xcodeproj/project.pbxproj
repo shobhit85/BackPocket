@@ -8,26 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5D3F23F31696481E003736FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3F23F21696481E003736FE /* Foundation.framework */; };
-		5D3F23F81696481E003736FE /* BackPocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D3F23F71696481E003736FE /* BackPocket.h */; };
-		5D3F23FA1696481E003736FE /* BackPocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F23F91696481E003736FE /* BackPocket.m */; };
 		5D3F24021696481E003736FE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3F24011696481E003736FE /* SenTestingKit.framework */; };
 		5D3F24051696481E003736FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3F23F21696481E003736FE /* Foundation.framework */; };
 		5D3F24081696481E003736FE /* libbackpocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3F23EF1696481E003736FE /* libbackpocket.a */; };
 		5D3F240E1696481E003736FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D3F240C1696481E003736FE /* InfoPlist.strings */; };
 		5D3F24111696481E003736FE /* BackPocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F24101696481E003736FE /* BackPocketTests.m */; };
-		5D3F241C1696521A003736FE /* PocketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F241B1696521A003736FE /* PocketFactory.m */; };
-		5D3F241F16965289003736FE /* Pocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F241E16965289003736FE /* Pocket.m */; };
-		5D3F2422169655B2003736FE /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F2421169655B2003736FE /* DataStore.m */; };
 		5D475977169960FC005B9ABF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D475976169960FC005B9ABF /* CoreFoundation.framework */; };
 		5D47597A16996158005B9ABF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D47597916996158005B9ABF /* CFNetwork.framework */; };
-		5D47598116996E67005B9ABF /* PoolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D47598016996E67005B9ABF /* PoolManager.m */; };
-		5D47598716996F53005B9ABF /* Pool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D47598616996F53005B9ABF /* Pool.m */; };
-		5D47598D1699711C005B9ABF /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D47598C1699711C005B9ABF /* Connection.m */; };
-		5DDD82F716AF42FA0068B823 /* AbstractDataStoreMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD82F616AF42FA0068B823 /* AbstractDataStoreMap.m */; };
-		EE80EA7C19E1EE7C00C92492 /* DefaultPListObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE80EA7A19E1EE7C00C92492 /* DefaultPListObjectSerializer.m */; };
-		EEB8EA461A0363C5000A4A98 /* PocketFactory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D3F241A1696521A003736FE /* PocketFactory.h */; };
-		EEB8EA471A0363D1000A4A98 /* Pocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D3F241D16965289003736FE /* Pocket.h */; };
-		EEB8EA4D1A037DC0000A4A98 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8EA4C1A037DC0000A4A98 /* Message.m */; };
+		EE3DC1E41AE788D500D2D012 /* BackPocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1CD1AE788D500D2D012 /* BackPocket.m */; };
+		EE3DC1E51AE788D500D2D012 /* DefaultPListObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1D01AE788D500D2D012 /* DefaultPListObjectSerializer.m */; };
+		EE3DC1E61AE788D500D2D012 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1D21AE788D500D2D012 /* Message.m */; };
+		EE3DC1E71AE788D500D2D012 /* Pocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1D51AE788D500D2D012 /* Pocket.m */; };
+		EE3DC1E81AE788D500D2D012 /* PocketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1D71AE788D500D2D012 /* PocketFactory.m */; };
+		EE3DC1E91AE788D500D2D012 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1DA1AE788D500D2D012 /* Connection.m */; };
+		EE3DC1EA1AE788D500D2D012 /* Pool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1DC1AE788D500D2D012 /* Pool.m */; };
+		EE3DC1EB1AE788D500D2D012 /* PoolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1DE1AE788D500D2D012 /* PoolManager.m */; };
+		EE3DC1EC1AE788D500D2D012 /* AbstractDataStoreMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1E11AE788D500D2D012 /* AbstractDataStoreMap.m */; };
+		EE3DC1ED1AE788D500D2D012 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC1E31AE788D500D2D012 /* DataStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +51,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				EEB8EA471A0363D1000A4A98 /* Pocket.h in CopyFiles */,
-				EEB8EA461A0363C5000A4A98 /* PocketFactory.h in CopyFiles */,
-				5D3F23F81696481E003736FE /* BackPocket.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,37 +59,37 @@
 /* Begin PBXFileReference section */
 		5D3F23EF1696481E003736FE /* libbackpocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbackpocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3F23F21696481E003736FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5D3F23F61696481E003736FE /* backpocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "backpocket-Prefix.pch"; path = "src/backpocket-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		5D3F23F71696481E003736FE /* BackPocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackPocket.h; sourceTree = "<group>"; };
-		5D3F23F91696481E003736FE /* BackPocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackPocket.m; sourceTree = "<group>"; };
 		5D3F24001696481E003736FE /* backpocketTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backpocketTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3F24011696481E003736FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5D3F240B1696481E003736FE /* backpocketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "backpocketTests-Info.plist"; sourceTree = "<group>"; };
 		5D3F240D1696481E003736FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D3F240F1696481E003736FE /* BackPocketTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackPocketTests.h; sourceTree = "<group>"; };
 		5D3F24101696481E003736FE /* BackPocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackPocketTests.m; sourceTree = "<group>"; };
-		5D3F241A1696521A003736FE /* PocketFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketFactory.h; sourceTree = "<group>"; };
-		5D3F241B1696521A003736FE /* PocketFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PocketFactory.m; sourceTree = "<group>"; };
-		5D3F241D16965289003736FE /* Pocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pocket.h; sourceTree = "<group>"; };
-		5D3F241E16965289003736FE /* Pocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pocket.m; sourceTree = "<group>"; };
-		5D3F2420169655B2003736FE /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
-		5D3F2421169655B2003736FE /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
 		5D475976169960FC005B9ABF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		5D47597916996158005B9ABF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		5D47597F16996E67005B9ABF /* PoolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolManager.h; sourceTree = "<group>"; };
-		5D47598016996E67005B9ABF /* PoolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolManager.m; sourceTree = "<group>"; };
-		5D47598516996F53005B9ABF /* Pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pool.h; sourceTree = "<group>"; };
-		5D47598616996F53005B9ABF /* Pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pool.m; sourceTree = "<group>"; };
-		5D47598B1699711C005B9ABF /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
-		5D47598C1699711C005B9ABF /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
 		5D7F5F2C16FEED8000428EC7 /* SampleObjectCache.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleObjectCache.xcodeproj; path = SampleObjectCache/SampleObjectCache.xcodeproj; sourceTree = "<group>"; };
-		5DDD82F516AF42FA0068B823 /* AbstractDataStoreMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDataStoreMap.h; sourceTree = "<group>"; };
-		5DDD82F616AF42FA0068B823 /* AbstractDataStoreMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractDataStoreMap.m; sourceTree = "<group>"; };
-		EE80EA7719E1EE5E00C92492 /* DefaultPListObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultPListObjectSerializer.h; sourceTree = "<group>"; };
-		EE80EA7919E1EE5E00C92492 /* ObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectSerializer.h; sourceTree = "<group>"; };
-		EE80EA7A19E1EE7C00C92492 /* DefaultPListObjectSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultPListObjectSerializer.m; sourceTree = "<group>"; };
-		EEB8EA4B1A037DC0000A4A98 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		EEB8EA4C1A037DC0000A4A98 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		EE3DC1CB1AE788D500D2D012 /* backpocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "backpocket-Prefix.pch"; sourceTree = "<group>"; };
+		EE3DC1CC1AE788D500D2D012 /* BackPocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackPocket.h; sourceTree = "<group>"; };
+		EE3DC1CD1AE788D500D2D012 /* BackPocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackPocket.m; sourceTree = "<group>"; };
+		EE3DC1CF1AE788D500D2D012 /* DefaultPListObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultPListObjectSerializer.h; sourceTree = "<group>"; };
+		EE3DC1D01AE788D500D2D012 /* DefaultPListObjectSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultPListObjectSerializer.m; sourceTree = "<group>"; };
+		EE3DC1D11AE788D500D2D012 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		EE3DC1D21AE788D500D2D012 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		EE3DC1D31AE788D500D2D012 /* ObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectSerializer.h; sourceTree = "<group>"; };
+		EE3DC1D41AE788D500D2D012 /* Pocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pocket.h; sourceTree = "<group>"; };
+		EE3DC1D51AE788D500D2D012 /* Pocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pocket.m; sourceTree = "<group>"; };
+		EE3DC1D61AE788D500D2D012 /* PocketFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketFactory.h; sourceTree = "<group>"; };
+		EE3DC1D71AE788D500D2D012 /* PocketFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PocketFactory.m; sourceTree = "<group>"; };
+		EE3DC1D91AE788D500D2D012 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		EE3DC1DA1AE788D500D2D012 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		EE3DC1DB1AE788D500D2D012 /* Pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pool.h; sourceTree = "<group>"; };
+		EE3DC1DC1AE788D500D2D012 /* Pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pool.m; sourceTree = "<group>"; };
+		EE3DC1DD1AE788D500D2D012 /* PoolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolManager.h; sourceTree = "<group>"; };
+		EE3DC1DE1AE788D500D2D012 /* PoolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolManager.m; sourceTree = "<group>"; };
+		EE3DC1E01AE788D500D2D012 /* AbstractDataStoreMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDataStoreMap.h; sourceTree = "<group>"; };
+		EE3DC1E11AE788D500D2D012 /* AbstractDataStoreMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractDataStoreMap.m; sourceTree = "<group>"; };
+		EE3DC1E21AE788D500D2D012 /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		EE3DC1E31AE788D500D2D012 /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +119,8 @@
 		5D3F23E41696481D003736FE = {
 			isa = PBXGroup;
 			children = (
+				EE3DC1CA1AE788D500D2D012 /* Source */,
 				5D5B782F16D18634007C01A0 /* Examples */,
-				5D3F23F41696481E003736FE /* src */,
 				5D3F24091696481E003736FE /* Tests */,
 				5D3F23F11696481E003736FE /* Frameworks */,
 				5D3F23F01696481E003736FE /* Products */,
@@ -153,34 +147,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5D3F23F41696481E003736FE /* src */ = {
-			isa = PBXGroup;
-			children = (
-				5D3F23F71696481E003736FE /* BackPocket.h */,
-				5D3F23F91696481E003736FE /* BackPocket.m */,
-				5D3F241A1696521A003736FE /* PocketFactory.h */,
-				5D3F241B1696521A003736FE /* PocketFactory.m */,
-				5D3F241D16965289003736FE /* Pocket.h */,
-				5D3F241E16965289003736FE /* Pocket.m */,
-				5D3F23F61696481E003736FE /* backpocket-Prefix.pch */,
-				EE80EA7619E1EE3B00C92492 /* message */,
-				5D47598816996FBC005B9ABF /* pool */,
-				5D3F23F51696481E003736FE /* store */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		5D3F23F51696481E003736FE /* store */ = {
-			isa = PBXGroup;
-			children = (
-				5D3F2420169655B2003736FE /* DataStore.h */,
-				5D3F2421169655B2003736FE /* DataStore.m */,
-				5DDD82F516AF42FA0068B823 /* AbstractDataStoreMap.h */,
-				5DDD82F616AF42FA0068B823 /* AbstractDataStoreMap.m */,
-			);
-			path = store;
-			sourceTree = "<group>";
-		};
 		5D3F24091696481E003736FE /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,19 +166,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5D47598816996FBC005B9ABF /* pool */ = {
-			isa = PBXGroup;
-			children = (
-				5D47597F16996E67005B9ABF /* PoolManager.h */,
-				5D47598016996E67005B9ABF /* PoolManager.m */,
-				5D47598516996F53005B9ABF /* Pool.h */,
-				5D47598616996F53005B9ABF /* Pool.m */,
-				5D47598B1699711C005B9ABF /* Connection.h */,
-				5D47598C1699711C005B9ABF /* Connection.m */,
-			);
-			path = pool;
-			sourceTree = "<group>";
-		};
 		5D5B782F16D18634007C01A0 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,16 +174,57 @@
 			path = Examples;
 			sourceTree = "<group>";
 		};
-		EE80EA7619E1EE3B00C92492 /* message */ = {
+		EE3DC1CA1AE788D500D2D012 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				EEB8EA4B1A037DC0000A4A98 /* Message.h */,
-				EEB8EA4C1A037DC0000A4A98 /* Message.m */,
-				EE80EA7919E1EE5E00C92492 /* ObjectSerializer.h */,
-				EE80EA7719E1EE5E00C92492 /* DefaultPListObjectSerializer.h */,
-				EE80EA7A19E1EE7C00C92492 /* DefaultPListObjectSerializer.m */,
+				EE3DC1CB1AE788D500D2D012 /* backpocket-Prefix.pch */,
+				EE3DC1CC1AE788D500D2D012 /* BackPocket.h */,
+				EE3DC1CD1AE788D500D2D012 /* BackPocket.m */,
+				EE3DC1CE1AE788D500D2D012 /* message */,
+				EE3DC1D41AE788D500D2D012 /* Pocket.h */,
+				EE3DC1D51AE788D500D2D012 /* Pocket.m */,
+				EE3DC1D61AE788D500D2D012 /* PocketFactory.h */,
+				EE3DC1D71AE788D500D2D012 /* PocketFactory.m */,
+				EE3DC1D81AE788D500D2D012 /* pool */,
+				EE3DC1DF1AE788D500D2D012 /* store */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EE3DC1CE1AE788D500D2D012 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC1CF1AE788D500D2D012 /* DefaultPListObjectSerializer.h */,
+				EE3DC1D01AE788D500D2D012 /* DefaultPListObjectSerializer.m */,
+				EE3DC1D11AE788D500D2D012 /* Message.h */,
+				EE3DC1D21AE788D500D2D012 /* Message.m */,
+				EE3DC1D31AE788D500D2D012 /* ObjectSerializer.h */,
 			);
 			path = message;
+			sourceTree = "<group>";
+		};
+		EE3DC1D81AE788D500D2D012 /* pool */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC1D91AE788D500D2D012 /* Connection.h */,
+				EE3DC1DA1AE788D500D2D012 /* Connection.m */,
+				EE3DC1DB1AE788D500D2D012 /* Pool.h */,
+				EE3DC1DC1AE788D500D2D012 /* Pool.m */,
+				EE3DC1DD1AE788D500D2D012 /* PoolManager.h */,
+				EE3DC1DE1AE788D500D2D012 /* PoolManager.m */,
+			);
+			path = pool;
+			sourceTree = "<group>";
+		};
+		EE3DC1DF1AE788D500D2D012 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC1E01AE788D500D2D012 /* AbstractDataStoreMap.h */,
+				EE3DC1E11AE788D500D2D012 /* AbstractDataStoreMap.m */,
+				EE3DC1E21AE788D500D2D012 /* DataStore.h */,
+				EE3DC1E31AE788D500D2D012 /* DataStore.m */,
+			);
+			path = store;
 			sourceTree = "<group>";
 		};
 		EEB8EA4E1A03801B000A4A98 /* Products */ = {
@@ -356,16 +350,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3F23FA1696481E003736FE /* BackPocket.m in Sources */,
-				5D3F241C1696521A003736FE /* PocketFactory.m in Sources */,
-				5D3F241F16965289003736FE /* Pocket.m in Sources */,
-				5D3F2422169655B2003736FE /* DataStore.m in Sources */,
-				5D47598116996E67005B9ABF /* PoolManager.m in Sources */,
-				5D47598716996F53005B9ABF /* Pool.m in Sources */,
-				5D47598D1699711C005B9ABF /* Connection.m in Sources */,
-				EE80EA7C19E1EE7C00C92492 /* DefaultPListObjectSerializer.m in Sources */,
-				EEB8EA4D1A037DC0000A4A98 /* Message.m in Sources */,
-				5DDD82F716AF42FA0068B823 /* AbstractDataStoreMap.m in Sources */,
+				EE3DC1E41AE788D500D2D012 /* BackPocket.m in Sources */,
+				EE3DC1E81AE788D500D2D012 /* PocketFactory.m in Sources */,
+				EE3DC1E71AE788D500D2D012 /* Pocket.m in Sources */,
+				EE3DC1E61AE788D500D2D012 /* Message.m in Sources */,
+				EE3DC1E51AE788D500D2D012 /* DefaultPListObjectSerializer.m in Sources */,
+				EE3DC1ED1AE788D500D2D012 /* DataStore.m in Sources */,
+				EE3DC1EB1AE788D500D2D012 /* PoolManager.m in Sources */,
+				EE3DC1EC1AE788D500D2D012 /* AbstractDataStoreMap.m in Sources */,
+				EE3DC1E91AE788D500D2D012 /* Connection.m in Sources */,
+				EE3DC1EA1AE788D500D2D012 /* Pool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
