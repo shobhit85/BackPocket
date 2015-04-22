@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -125,9 +125,9 @@
 		5D3F23E41696481D003736FE = {
 			isa = PBXGroup;
 			children = (
-				5D5B782F16D18634007C01A0 /* examples */,
+				5D5B782F16D18634007C01A0 /* Examples */,
 				5D3F23F41696481E003736FE /* src */,
-				5D3F24091696481E003736FE /* tests */,
+				5D3F24091696481E003736FE /* Tests */,
 				5D3F23F11696481E003736FE /* Frameworks */,
 				5D3F23F01696481E003736FE /* Products */,
 			);
@@ -181,15 +181,14 @@
 			path = store;
 			sourceTree = "<group>";
 		};
-		5D3F24091696481E003736FE /* tests */ = {
+		5D3F24091696481E003736FE /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				5D3F240F1696481E003736FE /* BackPocketTests.h */,
 				5D3F24101696481E003736FE /* BackPocketTests.m */,
 				5D3F240A1696481E003736FE /* Supporting Files */,
 			);
-			name = tests;
-			path = test;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		5D3F240A1696481E003736FE /* Supporting Files */ = {
@@ -214,12 +213,12 @@
 			path = pool;
 			sourceTree = "<group>";
 		};
-		5D5B782F16D18634007C01A0 /* examples */ = {
+		5D5B782F16D18634007C01A0 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
 				5D7F5F2C16FEED8000428EC7 /* SampleObjectCache.xcodeproj */,
 			);
-			path = examples;
+			path = Examples;
 			sourceTree = "<group>";
 		};
 		EE80EA7619E1EE3B00C92492 /* message */ = {
@@ -279,7 +278,7 @@
 			name = backpocketTests;
 			productName = backpocketTests;
 			productReference = 5D3F24001696481E003736FE /* backpocketTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -289,10 +288,10 @@
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = VMware;
+				ORGANIZATIONNAME = Home;
 			};
 			buildConfigurationList = 5D3F23E91696481D003736FE /* Build configuration list for PBXProject "backpocket" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
