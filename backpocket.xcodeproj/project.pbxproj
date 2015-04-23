@@ -17,14 +17,14 @@
 		5D47597A16996158005B9ABF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D47597916996158005B9ABF /* CFNetwork.framework */; };
 		EE3DC2231AE78D0500D2D012 /* AbstractDataStoreMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC20B1AE78D0500D2D012 /* AbstractDataStoreMap.m */; };
 		EE3DC2241AE78D0500D2D012 /* BackPocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC20E1AE78D0500D2D012 /* BackPocket.m */; };
-		EE3DC2251AE78D0500D2D012 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC2101AE78D0500D2D012 /* Connection.m */; };
 		EE3DC2261AE78D0500D2D012 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC2121AE78D0500D2D012 /* DataStore.m */; };
-		EE3DC2271AE78D0500D2D012 /* DefaultPListObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC2141AE78D0500D2D012 /* DefaultPListObjectSerializer.m */; };
-		EE3DC2281AE78D0500D2D012 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC2171AE78D0500D2D012 /* Message.m */; };
 		EE3DC2291AE78D0500D2D012 /* Pocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC21A1AE78D0500D2D012 /* Pocket.m */; };
 		EE3DC22A1AE78D0500D2D012 /* PocketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC21C1AE78D0500D2D012 /* PocketFactory.m */; };
-		EE3DC22B1AE78D0500D2D012 /* Pool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC21F1AE78D0500D2D012 /* Pool.m */; };
-		EE3DC22C1AE78D0500D2D012 /* PoolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC2211AE78D0500D2D012 /* PoolManager.m */; };
+		EE3DC23E1AE7901300D2D012 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC23B1AE7901300D2D012 /* Connection.m */; };
+		EE3DC23F1AE7901300D2D012 /* Pool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC23C1AE7901300D2D012 /* Pool.m */; };
+		EE3DC2401AE7901300D2D012 /* PoolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC23D1AE7901300D2D012 /* PoolManager.m */; };
+		EE3DC2461AE7902100D2D012 /* DefaultPListObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC2441AE7902100D2D012 /* DefaultPListObjectSerializer.m */; };
+		EE3DC2471AE7902100D2D012 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC2451AE7902100D2D012 /* Message.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,23 +73,23 @@
 		EE3DC20C1AE78D0500D2D012 /* backpocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "backpocket-Prefix.pch"; sourceTree = "<group>"; };
 		EE3DC20D1AE78D0500D2D012 /* BackPocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackPocket.h; sourceTree = "<group>"; };
 		EE3DC20E1AE78D0500D2D012 /* BackPocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackPocket.m; sourceTree = "<group>"; };
-		EE3DC20F1AE78D0500D2D012 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connection.h; path = ../Connection.h; sourceTree = "<group>"; };
-		EE3DC2101AE78D0500D2D012 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connection.m; path = ../Connection.m; sourceTree = "<group>"; };
 		EE3DC2111AE78D0500D2D012 /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
 		EE3DC2121AE78D0500D2D012 /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
-		EE3DC2131AE78D0500D2D012 /* DefaultPListObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultPListObjectSerializer.h; path = ../DefaultPListObjectSerializer.h; sourceTree = "<group>"; };
-		EE3DC2141AE78D0500D2D012 /* DefaultPListObjectSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DefaultPListObjectSerializer.m; path = ../DefaultPListObjectSerializer.m; sourceTree = "<group>"; };
-		EE3DC2161AE78D0500D2D012 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message.h; path = ../Message.h; sourceTree = "<group>"; };
-		EE3DC2171AE78D0500D2D012 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Message.m; path = ../Message.m; sourceTree = "<group>"; };
-		EE3DC2181AE78D0500D2D012 /* ObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectSerializer.h; path = ../ObjectSerializer.h; sourceTree = "<group>"; };
 		EE3DC2191AE78D0500D2D012 /* Pocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pocket.h; sourceTree = "<group>"; };
 		EE3DC21A1AE78D0500D2D012 /* Pocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pocket.m; sourceTree = "<group>"; };
 		EE3DC21B1AE78D0500D2D012 /* PocketFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketFactory.h; sourceTree = "<group>"; };
 		EE3DC21C1AE78D0500D2D012 /* PocketFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PocketFactory.m; sourceTree = "<group>"; };
-		EE3DC21E1AE78D0500D2D012 /* Pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pool.h; path = ../Pool.h; sourceTree = "<group>"; };
-		EE3DC21F1AE78D0500D2D012 /* Pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pool.m; path = ../Pool.m; sourceTree = "<group>"; };
-		EE3DC2201AE78D0500D2D012 /* PoolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PoolManager.h; path = ../PoolManager.h; sourceTree = "<group>"; };
-		EE3DC2211AE78D0500D2D012 /* PoolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PoolManager.m; path = ../PoolManager.m; sourceTree = "<group>"; };
+		EE3DC2381AE7901300D2D012 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		EE3DC2391AE7901300D2D012 /* Pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pool.h; sourceTree = "<group>"; };
+		EE3DC23A1AE7901300D2D012 /* PoolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolManager.h; sourceTree = "<group>"; };
+		EE3DC23B1AE7901300D2D012 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		EE3DC23C1AE7901300D2D012 /* Pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pool.m; sourceTree = "<group>"; };
+		EE3DC23D1AE7901300D2D012 /* PoolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolManager.m; sourceTree = "<group>"; };
+		EE3DC2411AE7902100D2D012 /* DefaultPListObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultPListObjectSerializer.h; sourceTree = "<group>"; };
+		EE3DC2421AE7902100D2D012 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		EE3DC2431AE7902100D2D012 /* ObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectSerializer.h; sourceTree = "<group>"; };
+		EE3DC2441AE7902100D2D012 /* DefaultPListObjectSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultPListObjectSerializer.m; sourceTree = "<group>"; };
+		EE3DC2451AE7902100D2D012 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +177,8 @@
 		EE3DC2091AE78D0500D2D012 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EE3DC2371AE78FF800D2D012 /* Pool */,
+				EE3DC2361AE78FF100D2D012 /* Message */,
 				EE3DC20C1AE78D0500D2D012 /* backpocket-Prefix.pch */,
 				EE3DC20D1AE78D0500D2D012 /* BackPocket.h */,
 				EE3DC20E1AE78D0500D2D012 /* BackPocket.m */,
@@ -185,35 +187,8 @@
 				EE3DC21B1AE78D0500D2D012 /* PocketFactory.h */,
 				EE3DC21C1AE78D0500D2D012 /* PocketFactory.m */,
 				EE3DC22D1AE78DC400D2D012 /* Store */,
-				EE3DC2151AE78D0500D2D012 /* message */,
-				EE3DC21D1AE78D0500D2D012 /* pool */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		EE3DC2151AE78D0500D2D012 /* message */ = {
-			isa = PBXGroup;
-			children = (
-				EE3DC2131AE78D0500D2D012 /* DefaultPListObjectSerializer.h */,
-				EE3DC2141AE78D0500D2D012 /* DefaultPListObjectSerializer.m */,
-				EE3DC2161AE78D0500D2D012 /* Message.h */,
-				EE3DC2171AE78D0500D2D012 /* Message.m */,
-				EE3DC2181AE78D0500D2D012 /* ObjectSerializer.h */,
-			);
-			path = message;
-			sourceTree = "<group>";
-		};
-		EE3DC21D1AE78D0500D2D012 /* pool */ = {
-			isa = PBXGroup;
-			children = (
-				EE3DC20F1AE78D0500D2D012 /* Connection.h */,
-				EE3DC2101AE78D0500D2D012 /* Connection.m */,
-				EE3DC21E1AE78D0500D2D012 /* Pool.h */,
-				EE3DC21F1AE78D0500D2D012 /* Pool.m */,
-				EE3DC2201AE78D0500D2D012 /* PoolManager.h */,
-				EE3DC2211AE78D0500D2D012 /* PoolManager.m */,
-			);
-			path = pool;
 			sourceTree = "<group>";
 		};
 		EE3DC22D1AE78DC400D2D012 /* Store */ = {
@@ -225,6 +200,31 @@
 				EE3DC20B1AE78D0500D2D012 /* AbstractDataStoreMap.m */,
 			);
 			name = Store;
+			sourceTree = "<group>";
+		};
+		EE3DC2361AE78FF100D2D012 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC2411AE7902100D2D012 /* DefaultPListObjectSerializer.h */,
+				EE3DC2421AE7902100D2D012 /* Message.h */,
+				EE3DC2431AE7902100D2D012 /* ObjectSerializer.h */,
+				EE3DC2441AE7902100D2D012 /* DefaultPListObjectSerializer.m */,
+				EE3DC2451AE7902100D2D012 /* Message.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		EE3DC2371AE78FF800D2D012 /* Pool */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC2381AE7901300D2D012 /* Connection.h */,
+				EE3DC2391AE7901300D2D012 /* Pool.h */,
+				EE3DC23A1AE7901300D2D012 /* PoolManager.h */,
+				EE3DC23B1AE7901300D2D012 /* Connection.m */,
+				EE3DC23C1AE7901300D2D012 /* Pool.m */,
+				EE3DC23D1AE7901300D2D012 /* PoolManager.m */,
+			);
+			name = Pool;
 			sourceTree = "<group>";
 		};
 		EEB8EA4E1A03801B000A4A98 /* Products */ = {
@@ -350,16 +350,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3DC2271AE78D0500D2D012 /* DefaultPListObjectSerializer.m in Sources */,
 				EE3DC22A1AE78D0500D2D012 /* PocketFactory.m in Sources */,
 				EE3DC2291AE78D0500D2D012 /* Pocket.m in Sources */,
-				EE3DC22C1AE78D0500D2D012 /* PoolManager.m in Sources */,
-				EE3DC22B1AE78D0500D2D012 /* Pool.m in Sources */,
 				EE3DC2241AE78D0500D2D012 /* BackPocket.m in Sources */,
 				EE3DC2261AE78D0500D2D012 /* DataStore.m in Sources */,
-				EE3DC2281AE78D0500D2D012 /* Message.m in Sources */,
-				EE3DC2251AE78D0500D2D012 /* Connection.m in Sources */,
 				EE3DC2231AE78D0500D2D012 /* AbstractDataStoreMap.m in Sources */,
+				EE3DC2401AE7901300D2D012 /* PoolManager.m in Sources */,
+				EE3DC23E1AE7901300D2D012 /* Connection.m in Sources */,
+				EE3DC2471AE7902100D2D012 /* Message.m in Sources */,
+				EE3DC2461AE7902100D2D012 /* DefaultPListObjectSerializer.m in Sources */,
+				EE3DC23F1AE7901300D2D012 /* Pool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
