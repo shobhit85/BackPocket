@@ -32,7 +32,6 @@
 		5D7F5F1016FEED8000428EC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D7F5F1216FEED8000428EC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D7F5F1416FEED8000428EC7 /* SampleObjectCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleObjectCache-Prefix.pch"; sourceTree = "<group>"; };
-		5D7F5F1516FEED8000428EC7 /* SampleObjectCacheAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SampleObjectCacheAppDelegate.h; path = "/Users/shobhit/Documents/lru-for-ios/backpocket/examples/SampleObjectCache/SampleObjectCache/SampleObjectCacheAppDelegate.h"; sourceTree = "<absolute>"; };
 		5D7F5F1616FEED8000428EC7 /* SampleObjectCacheAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleObjectCacheAppDelegate.m; sourceTree = "<group>"; };
 		5D7F5F1816FEED8000428EC7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5D7F5F1A16FEED8000428EC7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		5D7F5F2416FEED8000428EC7 /* SampleObjectCacheDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleObjectCacheDetailViewController.h; sourceTree = "<group>"; };
 		5D7F5F2516FEED8000428EC7 /* SampleObjectCacheDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleObjectCacheDetailViewController.m; sourceTree = "<group>"; };
 		5DCB5E4C179B5DFE002B92D4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EE3BB61A1B635E9F008FCC76 /* SampleObjectCacheAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleObjectCacheAppDelegate.h; sourceTree = "<group>"; };
 		EEAB505118A820D800605AD2 /* libbackpocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbackpocket.a; path = "../../../../../Library/Developer/Xcode/DerivedData/xcode-workspace-fgrveoydchkulmfdfninfsjuvbsw/Build/Products/Debug-iphoneos/libbackpocket.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +94,7 @@
 		5D7F5F0C16FEED8000428EC7 /* SampleObjectCache */ = {
 			isa = PBXGroup;
 			children = (
-				5D7F5F1516FEED8000428EC7 /* SampleObjectCacheAppDelegate.h */,
+				EE3BB61A1B635E9F008FCC76 /* SampleObjectCacheAppDelegate.h */,
 				5D7F5F1616FEED8000428EC7 /* SampleObjectCacheAppDelegate.m */,
 				5D7F5F1E16FEED8000428EC7 /* MainStoryboard.storyboard */,
 				5D7F5F2116FEED8000428EC7 /* SampleObjectCacheMasterViewController.h */,
