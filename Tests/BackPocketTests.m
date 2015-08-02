@@ -1,31 +1,49 @@
 //
 //  BackPocketTests.m
+//  BackPocket
 //
-//  Created by Shobhit Agarwal on 1/3/13.
-//  Copyright (c) 2013 VMware. All rights reserved.
+//  Created by Shobhit Agarwal on 8/1/15.
+//  Copyright (c) 2015 Shobhit. All rights reserved.
 //
 
-#import "BackPocketTests.h"
+#import <Cocoa/Cocoa.h>
+#import <XCTest/XCTest.h>
+#import "BackPocket.h"
+
+@interface BackPocketTests : XCTestCase
+{
+    NSDictionary *props;
+    PocketFactory *pocketFactory;
+}
+
+@end
 
 @implementation BackPocketTests
 
-- (void)setUp
-{
+- (void)setUp {
     [super setUp];
-    
-    // Set-up code here.
+    props = [[NSMutableDictionary alloc] initWithObjects:[[NSArray alloc] initWithObjects:@"localhost", @"8080", nil] forKeys:[[NSArray alloc] initWithObjects:@"server-address", @"server-port", nil]];
+    pocketFactory = [BackPocket getPocketFactory:props];
 }
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
+- (void)tearDown {
     [super tearDown];
+    pocketFactory = nil;
+    props = nil;
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet");
+- (void)testNotNilPocket {
+    Pocket *cache = [pocketFactory create];
+    XCTAssertNotNil(cache, @"Cache must not be nil!");
+}
+
+- (void)testCraeteAndGetDataStore {
+    Pocket *cache = [pocketFactory create];
+    DataStore *store = [cache createDatastore:@"teststore"];
+    XCTAssertNotNil(store, @"Store created from cache must not be nil!");
+    DataStore *retrievedStore = [cache getDatastore:@"teststore"];
+    XCTAssertNotNil(retrievedStore, @"Store retrieved from cache must not be nil!");
+    XCTAssertEqual(store, retrievedStore, @"Created and retrieved stores must be same!");
 }
 
 @end
