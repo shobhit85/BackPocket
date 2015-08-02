@@ -34,7 +34,7 @@
     
     if (storeName != nil) {
         // Create pool using properties
-        Pool *pool = [PoolManager createPoolWithAddress:(server) port:(port)];
+        Pool *pool = [PoolManager createPoolWithAddress:(server) port:&(port)];
         store = [[DataStore alloc] initWithPool:pool name:storeName];
         CFDictionaryAddValue(stores, (__bridge const void *)(storeName), (__bridge const void *)(store));
     } else {

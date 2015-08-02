@@ -5,19 +5,23 @@
 //
 
 #import "DataStore.h"
+#import "AbstractDataStoreMap.h"
+#import "DefaultPListObjectSerializer.h"
+#import "Message.h"
+#import "Pool.h"
+
 
 #ifdef GOOGLE_PROTOBUF_MESSAGE_H__
-
 #import <google>
 #endif
 
 @implementation DataStore
 
-@synthesize abstractMap;
 @synthesize connectionPool;
 @synthesize size;
 @synthesize name;
 
+AbstractDataStoreMap *abstractMap;
 
 - (id) initWithPool:(Pool *)pool name:(NSString *)regionName
 {
@@ -144,7 +148,7 @@
 - (NSInteger) getSize
 {
     int s = [self.size intValue];
-    return [NSNumber numberWithInt:s];
+    return [[NSNumber numberWithInt:s] integerValue];
 }
 
 - (void) putAll: (NSDictionary *)keyValues

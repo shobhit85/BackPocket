@@ -5,12 +5,7 @@
 //
 
 #import <CoreFoundation/CoreFoundation.h>
-#import <sys/socket.h>
-#import <netinet/in.h>
-#import <netdb.h>
-#import <arpa/inet.h>
-
-const int CHUNKSIZE = 100;
+#import <Foundation/Foundation.h>
 
 @interface Connection : NSObject {
 

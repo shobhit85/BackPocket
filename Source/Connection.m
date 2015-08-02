@@ -5,6 +5,10 @@
 //
 
 #import "Connection.h"
+#import <sys/socket.h>
+#import <netinet/in.h>
+#import <netdb.h>
+#import <arpa/inet.h>
 
 @implementation Connection {
     
@@ -15,6 +19,8 @@
 @synthesize writeStream;
 @synthesize isFree;
 @synthesize dataRecieved;
+
+const int CHUNKSIZE = 100;
 
 - (void) close {
     if (readStream != NULL && writeStream != NULL) {

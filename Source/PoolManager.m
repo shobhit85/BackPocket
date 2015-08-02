@@ -10,7 +10,7 @@
 
 + (Pool *)createPoolWithAddress:(NSString *)server port:(NSInteger *)port
 {
-    Pool *pool = [[Pool alloc] initialize:(server) port:(port) numConn:((int)INIT_NUM_CONN)];
+    Pool *pool = [[Pool alloc] initialize:(server) port:*((port)) numConn:((int)INIT_NUM_CONN)];
     return pool;
 }
 

@@ -11,11 +11,11 @@
 @interface Pocket : NSObject
 {
     NSString *server;
-    NSInteger *port;
+    NSInteger port;
 }
 
 @property (copy, nonatomic) NSString *server;
-@property (readonly, nonatomic) NSInteger *port;
+@property (readonly, nonatomic) NSInteger port;
 
 - (void) initializeWithProps:(NSDictionary *) props;
 

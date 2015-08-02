@@ -5,20 +5,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AbstractDataStoreMap.h"
-#import "DefaultPListObjectSerializer.h"
-#import "Message.h"
 #import "Pool.h"
+#import "ObjectSerializer.h"
 
 @interface DataStore : NSObject {
     NSNumber *size;
     NSString *name;
     Pool *connectionPool;
-    AbstractDataStoreMap *abstractMap;
 }
 
 @property (copy, getter = getName) NSString *name;
-@property (atomic, retain, readwrite) AbstractDataStoreMap *abstractMap;
 @property (nonatomic, readwrite) Pool *connectionPool;
 @property (copy) NSNumber *size;
 
